@@ -29,7 +29,7 @@ JSON Request Sample: `{
   "vel": "20.0",
   }`
 <br /> <br />
-## Additional Question
+## Additional Questions
 - Why throttling is useful (if it is)? How would you implement it here? <br />
 **_Throttling is useful because it prevents a single client from overwhelming the server with requests, thereby affecting traffic for other clients. It also helps put cost under control. I will implement a simple middleware/interceptor that limits the amount of requests to the server from a particular IP or id (drone) within a time period._**<br /><br />
 
